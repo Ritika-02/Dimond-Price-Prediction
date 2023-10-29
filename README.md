@@ -15,3 +15,14 @@ git commit -m "First commit"
 ```
 bash your_file_name.sh
 ```
+
+
+```
+python setup.py install
+```
+
+# another way you can mentions -e . in your requirement file and you can run
+
+```
+pip install -r requirements.txt
+```
