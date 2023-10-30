@@ -1,5 +1,5 @@
 from setuptools import find_packages,setup
-#from typing import List
+from typing import List
 
 """HYPEN_E_DOT='-e .'
 
@@ -19,5 +19,6 @@ setup(
     version='0.0.1',
     author='Ritika-02',
     author_email='ritikabhandari049@gmail.com',
+    install_requires = ["scikit-learn",'pandas','numpy'],
     packages=find_packages()
 )

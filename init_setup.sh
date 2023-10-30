@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo [$(date)]: "START"
 
 
@@ -11,7 +13,7 @@ echo [$(date)]: "activating the environment"
 
 source activate ./env
 
-echo [$(date)]: "installing the dev requirements" 
+echo [$(date)]: "installing the development requirements" 
 
 pip install -r requirements.txt
 
