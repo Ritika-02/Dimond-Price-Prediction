@@ -2,5 +2,7 @@ pandas
 scikit-learn
 seaborn
 numpy
+jinja2
+beautifulsoup4
 
--e .
+
