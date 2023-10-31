@@ -26,3 +26,8 @@ python setup.py install
 ```
 pip install -r requirements.txt
 ```
+
+
+# two ways to setup the environment 
+1) By running init_setup.sh in git
+2) Step by step creating vitual environment in command prompt
