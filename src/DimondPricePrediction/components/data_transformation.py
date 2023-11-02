@@ -108,6 +108,9 @@ class DataTransformation:
 
             logging.info("Applying preprocessing object on training and testing data")
 
+            train_arr =  np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
+            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
+
 
             save_object(
 
@@ -115,9 +118,12 @@ class DataTransformation:
                 obj = preprocessing_obj
             )
 
-            
+            logging.info("preprocessing pickle file saved")
 
-            
+            return(
+                train_arr,
+                test_arr
+            )
 
         except Exception as e:
             logging.info("exception occured in Initiating Data Transformation")
