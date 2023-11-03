@@ -4,7 +4,7 @@ import numpy as np
 import os
 import sys
 from src.DimondPricePrediction.logger import logging
-from src.DimondPricePrediction.exception import customexception
+from src.DimondPricePrediction.exception import customException
 from dataclasses import dataclass
 from src.DimondPricePrediction.utils.utils import save_object
 from src.DimondPricePrediction.utils.utils import evaluate_model
@@ -22,7 +22,7 @@ class ModelTrainer:
     def __init__(self):
         self.model_trainer_config = ModelTrainerConfig()
 
-    def initiate_model_training(self):
+    def initiate_model_training(self,train_array, test_array):
         try:
             logging.info('Splitting Dependent and Independent variables from train and test data')
             X_train, y_train, X_test, y_test = (
