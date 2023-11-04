@@ -37,7 +37,7 @@ class PredictPipeline:
 
 
 
-# writing 2nd class
+# creating 2nd class
 
 class CustomData:
     
