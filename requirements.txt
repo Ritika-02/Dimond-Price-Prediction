@@ -5,4 +5,5 @@ numpy
 jinja2
 beautifulsoup4
 matplotlib
+Flask
 
