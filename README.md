@@ -49,15 +49,15 @@ MLFLOW_TRACKING_USERNAME=ritikabhandari049 \
 MLFLOW_TRACKING_PASSWORD=7496815613371e670187e44120b6d3e90c96fabb \
 python script.py
 
-Run this to export as env variables:
+Run this to set as env variables:
 
-```bash
+```cmd
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/ritikabhandari049/Dimond-Price-Prediction.mlflow
+set MLFLOW_TRACKING_URI=https://dagshub.com/ritikabhandari049/Dimond-Price-Prediction.mlflow
 
-export MLFLOW_TRACKING_USERNAME=ritikabhandari049
+set MLFLOW_TRACKING_USERNAME=ritikabhandari049
 
-export MLFLOW_TRACKING_PASSWORD=7496815613371e670187e44120b6d3e90c96fabb
+set MLFLOW_TRACKING_PASSWORD=7496815613371e670187e44120b6d3e90c96fabb
 
 ```
 
