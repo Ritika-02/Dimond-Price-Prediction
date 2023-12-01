@@ -7,3 +7,5 @@ beautifulsoup4
 matplotlib
 Flask
 
+mlflow==2.2.2
+dvc
