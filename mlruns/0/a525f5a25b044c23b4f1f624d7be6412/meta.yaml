@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Ineuron_Project/mlruns/0/a525f5a25b044c23b4f1f624d7be6412/artifacts
+end_time: 1701527435280
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a525f5a25b044c23b4f1f624d7be6412
+run_name: debonair-yak-504
+run_uuid: a525f5a25b044c23b4f1f624d7be6412
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701527429826
+status: 3
+tags: []
+user_id: Ritika
